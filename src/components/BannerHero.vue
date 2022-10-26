@@ -1,0 +1,77 @@
+<template>
+  <div id="banner-hero" class="relative bg-[#141312] md:-z-[10]">
+    <div
+      :class="{
+        'xl:opacity-[1] xl:blur-[0px]': scrollPosition == 0,
+        'sm:opacity-[0.6025] sm:blur(11.925px) xl:opacity-[0.355] xl:blur-[19.35px]':
+          scrollPosition < 80,
+        'sm:opacity-[0.1] sm:blur(30px) xl:opacity-[0.755] xl:blur-[19.35px]':
+          scrollPosition > 100,
+      }"
+      class="hero-video sm:pb-60 transition-header"
+    >
+      <video
+        id="myVideo"
+        autoplay="true"
+        muted="true"
+        loop="true"
+        playsinline="true"
+        class="md:w-full md:h-[700px] md:object-cover md:-z-[100]"
+      >
+        <source
+          src="https://files.facepunch.com/paddy/20210324/rust_site2021_hero_v002.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+    <div
+      class="absolute sm:top-24 md:top-60 lg:top-24 sm:left-10 lg:left-0 xl:left-32"
+    >
+      <h1
+        class="font-['Bebas_Neue'] sm:w-72 xl:w-72 sm:leading-[80px] lg:leading-[160px] sm:text-[96px] lg:text-[192px] text-[#e4dad1] font-medium"
+      >
+        Explore Build Survive
+      </h1>
+      <p
+        class="text-base text-[#e4dad1] xl:mt-5 font-normal font-['Open_Sans'] sm:mb-5 lg:mb-7 xl:mb-8 sm:w-[96%] lg:w-6/12 xl:w-[550px]"
+      >
+        The only aim in Rust is to survive. Everything wants you to die - the
+        island’s wildlife and other inhabitants, the environment, other
+        survivors. Do whatever it takes to last another night.
+      </p>
+      <div class="sm:flex sm:gap-3 xl:gap-4">
+        <a
+          href="https://rust.facepunch.com/buy"
+          target="_blank"
+          class="sm:py-1.5 xl:py-1 sm:px-4 xl:px-5 text-[#ffffff] bg-[#cd412b] sm:text-[24px] lg:text-[28px] font-normal font-['Bebas_Neue']"
+          >buy rust</a
+        >
+        <a
+          href="https://www.youtube.com/watch?v=LGcECozNXEw"
+          class="bg-[#2a2928] sm:px-5 xl:px-4 sm:py-1 xl:py-1 border text-[#e4dad1] sm:text-[24px] lg:text-[28px] font-normal font-['Bebas_Neue']"
+          target="_blank"
+          >watch trailer</a
+        >
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "BannerHero",
+  data() {
+    return {
+      scrollPosition: null,
+    };
+  },
+  methods: {
+    updateScroll() {
+      this.scrollPosition = window.scrollY;
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.updateScroll);
+  },
+};
+</script>
