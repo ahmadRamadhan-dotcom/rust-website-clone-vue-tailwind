@@ -1,12 +1,17 @@
 <template>
-  <div id="banner-hero" class="relative 2xl:mx-auto bg-[#141312] md:-z-[10]">
+  <div
+    id="banner-hero"
+    class="relative 2xl:mx-auto bg-[#141312] md:-z-[10] h-[10000px]"
+  >
     <div
       :class="{
-        'xl:opacity-[1] xl:blur-[0px]': scrollPosition == 0,
-        'sm:opacity-[0.6025] sm:blur(11.925px) xl:opacity-[0.355] xl:blur-[19.35px]':
-          scrollPosition < 80,
-        'sm:opacity-[0.1] sm:blur(30px) xl:opacity-[0.755] xl:blur-[19.35px]':
-          scrollPosition > 100,
+        'opacity-[0.8675] blur-[3.975px] xl:opacity-[1] xl:blur-[0px]':
+          scrollPosition > 40,
+        'opacity-[0.6025] blur-[11.925px] xl:opacity-[0.6025] xl:blur-[11.925px]':
+          scrollPosition > 80,
+        'opacity-[0.1175] blur-[26.475px] xl:opacity-[0.1175]':
+          scrollPosition > 350,
+        'opacity-[0.1] blur-[30px]': scrollPosition > 450,
       }"
       class="hero-video sm:pb-60 transition-header"
     >
@@ -16,7 +21,7 @@
         muted="true"
         loop="true"
         playsinline="true"
-        class="md:w-full md:h-[700px] md:object-cover md:-z-[100]"
+        class="md:w-full md:h-[700px] 2xl:h-[1000px] md:object-cover md:-z-[100]"
       >
         <source
           src="https://files.facepunch.com/paddy/20210324/rust_site2021_hero_v002.mp4"
