@@ -8,7 +8,7 @@
     >
       <p
         id="quote-text"
-        class="font-['Bebas_Neue'] leading-[48px] sm:leading-[48px] w-10/12 sm:w-11/12 lg:w-full xl:leading-[44px] relative text-[48px] font-medium text-[#e4dad1]"
+        class="font-['Bebas_Neue'] leading-[48px] sm:leading-[48px] w-10/12 sm:w-11/12 lg:w-10/12 xl:w-full xl:leading-[44px] relative text-[48px] font-medium text-[#e4dad1]"
       >
         “Rust is one of the cruelest games on Steam, and that's what makes it so
         compelling.”
