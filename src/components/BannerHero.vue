@@ -1,8 +1,5 @@
 <template>
-  <div
-    id="banner-hero"
-    class="relative 2xl:mx-auto bg-[#141312] md:-z-[10] h-[10000px]"
-  >
+  <div id="banner-hero" class="relative 2xl:mx-auto bg-[#141312] md:-z-[10]">
     <div
       :class="{
         'opacity-[0.8675] blur-[3.975px] xl:opacity-[1] xl:blur-[0px]':
