@@ -82,7 +82,7 @@ export default {
 @media (max-width: 639px) {
   #myVideo {
     width: full;
-    height: 90vh;
+    height: 100vh;
     object-fit: cover;
   }
   .wrapper {
