@@ -13,7 +13,7 @@
         />
       </figure>
       <div
-        class="flex gap-5 sm:flex sm:gap-6 lg:gap-7 xl:gap-9 sm:translate-y-5 lg:translate-y-0"
+        class="flex gap-4 sm:flex sm:gap-6 lg:gap-7 xl:gap-9 sm:translate-y-5 lg:translate-y-0"
       >
         <p
           id="content"
