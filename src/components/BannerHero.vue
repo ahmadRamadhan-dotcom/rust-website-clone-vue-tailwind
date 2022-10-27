@@ -1,5 +1,5 @@
 <template>
-  <div id="banner-hero" class="relative bg-[#141312] md:-z-[10]">
+  <div id="banner-hero" class="relative 2xl:mx-auto bg-[#141312] md:-z-[10]">
     <div
       :class="{
         'xl:opacity-[1] xl:blur-[0px]': scrollPosition == 0,
@@ -25,7 +25,7 @@
       </video>
     </div>
     <div
-      class="absolute sm:top-24 md:top-60 lg:top-24 sm:left-10 lg:left-0 xl:left-32"
+      class="absolute sm:top-24 md:top-60 lg:top-24 sm:left-10 lg:left-0 xl:left-32 2xl:left-0 2xl:right-0 2xl:bottom-0 2xl:top-40 2xl:w-[1100px] 2xl:m-auto"
     >
       <h1
         class="font-['Bebas_Neue'] sm:w-72 xl:w-72 sm:leading-[80px] lg:leading-[160px] sm:text-[96px] lg:text-[192px] text-[#e4dad1] font-medium"

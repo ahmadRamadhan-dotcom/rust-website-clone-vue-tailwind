@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex justify-center bg-[#151413] z-[999] md:translate-y-[140px] lg:translate-y-0 sm:h-[27vh] md:h-0 lg:h-[9vh] xl:h-[11vh]"
+    class="flex justify-center bg-[#151413] z-[999] md:translate-y-[140px] lg:translate-y-0 2xl:translate-y-[70px] sm:h-[27vh] md:h-0 lg:h-[9vh] xl:h-[11vh] 2xl:h-0"
   >
     <div
       class="lg:w-[950px] xl:w-[1100px] sm:pb-1 md:pb-0 sm:grid z-[30] sm:place-content-end sm:place-items-center lg:flex lg:justify-between sm:items-end"
