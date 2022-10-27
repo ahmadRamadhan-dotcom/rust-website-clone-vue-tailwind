@@ -1,7 +1,7 @@
 <template>
   <div
     id="funfact"
-    class="bg-[#1b1b1b] sm:h-[60vh] md:h-[40vh] xl:h-[50vh] flex justify-center lg:-translate-y-32 md:-translate-y-60"
+    class="bg-[#1b1b1b] sm:h-[60vh] md:h-[40vh] xl:h-[50vh] 2xl:h-[28vh] flex justify-center lg:-translate-y-32 md:-translate-y-60"
   >
     <div
       class="grid xl:w-[750px] text-center place-items-center place-content-center"
