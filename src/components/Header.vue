@@ -1,15 +1,15 @@
 <template>
   <header
-    class="flex justify-center bg-[#151413] z-[999] md:translate-y-[140px] lg:translate-y-0 2xl:translate-y-[70px] h-0 sm:h-[27vh] md:h-0 lg:h-[9vh] xl:h-[11vh] 2xl:h-0"
+    class="flex justify-center bg-[#151413] z-[999] md:translate-y-[140px] lg:translate-y-0 2xl:translate-y-[70px] h-0 sm:h-[200px] md:h-0 lg:h-[70px] xl:h-[80px] 2xl:h-0"
   >
     <div
-      class="lg:w-[950px] xl:w-[1100px] sm:pb-1 md:pb-0 sm:grid z-[30] sm:place-content-end sm:place-items-center lg:flex lg:justify-between sm:items-end"
+      class="lg:w-[950px] xl:w-[1100px] 2xl:w-[1100px] sm:pb-1 md:pb-0 sm:grid z-[30] sm:place-content-end sm:place-items-center lg:flex lg:justify-between sm:items-end"
     >
       <figure>
         <img
           src="../assets/rust-marque.svg"
           alt="rust header logo"
-          class="translate-y-8 translate-x-32 sm:translate-x-0 sm:-translate-y-6 lg:translate-y-1 xl:translate-y-2"
+          class="translate-y-8 translate-x-32 2xl:h-10 sm:translate-x-0 hover:scale-110 hover:duration-500 cursor-pointer sm:-translate-y-6 lg:translate-y-1 xl:translate-y-2"
         />
       </figure>
       <div
@@ -17,7 +17,7 @@
       >
         <p
           id="content"
-          class="text-[#e4dad1] translate-y-[90px] sm:translate-y-0 font-['Bebas_Neue'] font-medium text-xl sm:text-xl lg:translate-y-3 xl:translate-y-3"
+          class="text-[#e4dad1] translate-y-[90px] cursor-pointer sm:translate-y-0 font-['Bebas_Neue'] font-medium text-xl sm:text-xl 2xl:text-[1.25rem] lg:translate-y-3 xl:translate-y-3"
           v-for="(data, index) in headerList"
           :key="index"
         >

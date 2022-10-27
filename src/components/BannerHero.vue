@@ -30,7 +30,7 @@
       class="wrapper absolute sm:top-24 md:top-60 lg:top-24 sm:left-10 lg:left-0 xl:left-32 2xl:left-0 2xl:right-0 2xl:bottom-0 2xl:top-40 2xl:w-[1100px] 2xl:m-auto"
     >
       <h1
-        class="font-['Bebas_Neue'] sm:w-72 xl:w-72 leading-[80px] sm:leading-[80px] lg:leading-[160px] text-[96px] sm:text-[96px] lg:text-[192px] text-[#e4dad1] font-medium"
+        class="font-['Bebas_Neue'] sm:w-72 xl:w-72 leading-[80px] sm:leading-[80px] lg:leading-[160px] text-[96px] sm:text-[96px] lg:text-[192px] 2xl:text-[12rem] text-[#e4dad1] font-medium"
       >
         Explore Build Survive
       </h1>

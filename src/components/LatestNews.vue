@@ -14,11 +14,11 @@
           latest news
         </p>
       </div>
-      <figure class="w-full xl:w-[1100px]">
+      <figure class="w-full xl:w-[1100px] cursor-pointer">
         <img src="../assets/Ko-YNOaE.jpg" alt="latest news image" />
       </figure>
       <div
-        class="w-11/12 sm:w-11/12 lg:w-[850px] xl:w-[890px] 2xl:w-[800px] grid place-items-center bg-[#1f1f1f] h-[300px] sm:h-[300px] xl:h-[65vh] lg:h-[350px] 2xl:h-[350px] 2xl:pb-3 -translate-y-3 sm:-translate-y-2 xl:-translate-y-24"
+        class="w-11/12 sm:w-11/12 lg:w-[850px] xl:w-[850px] 2xl:w-[800px] grid place-items-center bg-[#1f1f1f] h-[300px] sm:h-[300px] xl:h-[400px] lg:h-[350px] 2xl:h-[350px] 2xl:pb-3 -translate-y-3 sm:-translate-y-2 xl:-translate-y-24"
       >
         <span
           id="title"
