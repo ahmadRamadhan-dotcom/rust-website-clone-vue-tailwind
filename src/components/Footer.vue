@@ -1,19 +1,15 @@
 <template>
   <footer
-    class="flex justify-center items-center sm:pt-24 xl:pt-20 bg-[#0c0b0b]"
+    class="flex justify-center items-center pt-20 sm:pt-24 xl:pt-20 bg-[#0c0b0b]"
   >
     <div class="grid place-content-center place-items-center">
-      <div class="sm:flex sm:gap-4 xl:flex xl:gap-10 items-center">
-        <img src="../assets/rust-brand.svg" alt="" class="sm:h-8 lg:h-full" />
-        <img src="../assets/cross.svg" alt="" class="sm:h-5 lg:h-full" />
-        <img
-          src="../assets/facepunch-brand.svg"
-          alt=""
-          class="sm:h-8 lg:h-full"
-        />
+      <div class="flex gap-4 xl:flex xl:gap-10 items-center">
+        <img src="../assets/rust-brand.svg" alt="" class="h-8 lg:h-full" />
+        <img src="../assets/cross.svg" alt="" class="h-5 lg:h-full" />
+        <img src="../assets/facepunch-brand.svg" alt="" class="h-8 lg:h-full" />
       </div>
       <div
-        class="sm:grid sm:place-content-center sm:text-center sm:gap-3 lg:flex lg:gap-8 sm:mt-14 xl:mt-14 items-center"
+        class="grid place-content-center text-center gap-4 sm:gap-3 lg:flex lg:gap-8 mt-12 sm:mt-14 xl:mt-14 items-center"
       >
         <a
           v-for="(data, index) in footerListData"
@@ -26,15 +22,15 @@
       </div>
       <div
         id="footer-copyright"
-        class="sm:flex sm:flex-col-reverse sm:justify-center xl:flex xl:flex-row xl:place-items-center xl:w-[1100px] sm:mt-20 xl:mt-32 xl:justify-between xl:items-end"
+        class="flex flex-col-reverse justify-center xl:flex xl:flex-row xl:place-items-center xl:w-[1100px] mt-20 sm:mt-20 xl:mt-32 xl:justify-between xl:items-end"
       >
         <p
-          class="font-['Bebas_Neue'] font-normal sm:mt-5 sm:text-lg xl:text-xl"
+          class="font-['Bebas_Neue'] font-normal w-11/12 sm:w-full xl:text-left text-center mt-4 sm:mt-5 text-lg xl:text-xl"
         >
           © 2022 Facepunch Studios. All rights reserved.
         </p>
         <div
-          class="footer-socials sm:flex sm:mx-auto xl:mx-0 sm:gap-4 xl:flex xl:gap-4"
+          class="footer-socials flex gap-5 mx-auto xl:mx-0 sm:gap-4 xl:flex xl:gap-4"
         >
           <a href="https://www.instagram.com/fcpnch/" class="social-button">
             <svg
